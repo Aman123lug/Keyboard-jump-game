@@ -8,7 +8,7 @@ WIDTH = 800
 HEIGHT = 600
 black=(0,0,0)
 gameDisplay = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption('DataFlair- Keyboard Jump Game')
+pygame.display.set_caption('Keyboard Jump Game')
 background = pygame.image.load('keyback.jpg')
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 font = pygame.font.Font('comic.ttf', 40)
